@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test Page Html</title>
+    <style>
+        .body{
+            background-size: cover;
+            background-image: url('C:/Users/arun/Desktop/New folder/sea.jpg');
+            background-repeat: no-repeat ;
+        }
+        .navbar {
+        overflow: hidden;
+        background-color: rgb(32, 112, 187);
+        position: fixed;
+        margin-left: -8px;
+        top: 0;
+        width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.h1{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+.form{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.938);
+    padding-left: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 25%;
+    width: 50%;
+
+}
+
+    </style>
+  </head>
+
+  <body class="body">  
+<div class="navbar">
+    <a href="#">ADD</a>
+    <a href="#">VIEW</a>
+    <a style="float: right;" href="#">LOGOUT</a>
+    <a style="float: right;" href="#"><i>LOGGED IN AS arunprakashakm@gmail.com</i></a>
+  </div>
+  <div class="h1">
+<h1 >SURVEY FORM</h1>
+</div>
+    <div class="form ">
+      <form action="#" >
+        
+        <p class="p">Let us know how we can improve</p>
+          <label class="label">* Name:</label>
+          <input type="text" id="fname" name="fname" /><br /><br />
+          <label class="label">* Email: </label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label class="label">* Age:</label>
+          <input type="integer" id="age" name="age" /><br /><br />
+          <input type="file" id="myFile" name="filename"><br /><br />
+          <label class="label">Which option best describes your current role ? </label>
+          <select name="Student" id="Student">
+            <option value="India">Student</option>
+            <option value="USA">USA</option>
+            <option value="UAE">UAE</option>
+            <option value="UK">UK</option></select>
+            <br /><br />
+          <label>* How likely is that you would recommend this 
+              program to a friend?</label>
+          <input type="radio" id="age1" name="age" value="30">
+          <label for="age1">Definitely</label><br>
+          <input type="radio" id="age2" name="age" value="60">
+          <label for="age2">Maybe</label><br>  
+          <input type="radio" id="age3" name="age" value="100">
+          <label for="age3">Not sure</label><br><br>
+          
+          <label>What do you like most here: </label>
+          <select name="Student" id="Student">
+            <option value="India">Select an option</option>
+            <option value="USA">USA</option>
+            </select>
+
+          <br /><br />
+         
+          <label>Things that should be improved in the future(check all that apply):</label>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          <label for="vehicle1">Front-end Projects</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+          <label for="vehicle2"> Back-end Projects</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+          <label for="vehicle3"> Data Visualization</label><br /><br />
+
+          <label>Any Comments or Suggestions?</label>
+          <textarea rows="3" cols="30"></textarea><br /><br />
+       
+      </form>
+    </div>
+  </body>
+</html>
